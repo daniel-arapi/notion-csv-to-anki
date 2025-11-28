@@ -1,0 +1,20 @@
+[project]
+name = "notion2anki"
+version = "1.0.0"
+description = "Convert Notion HTML database exports into Anki-ready CSV files."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "Daniel Arapi" }
+]
+dependencies = [
+    "beautifulsoup4",
+    "lxml",
+]
+
+[project.urls]
+homepage = "https://github.com/YOUR_GITHUB_USERNAME/notion2anki"
+repository = "https://github.com/YOUR_GITHUB_USERNAME/notion2anki"
+
+[project.scripts]
+notion2anki = "notion2anki.cli:main"
